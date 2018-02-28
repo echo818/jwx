@@ -1,0 +1,21 @@
+{
+  "name": "w-demo",
+  "version": "1.0.0",
+  "description": "a watch system fs program",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watch"
+  ],
+  "author": "Echo",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^2.0.2",
+    "koa-compose": "^4.0.0",
+    "less": "^3.0.1",
+    "vue-template-compiler": "^2.5.13"
+  }
+}
